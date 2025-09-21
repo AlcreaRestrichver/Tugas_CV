@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORTFOLIO</title>
+  <style>
+    body {
+      background-color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      display: flex;
+      height: 100vh;
+    }
+
+    .left-side {
+      flex: 1;
+      background: url("https://img.freepik.com/free-photo/photo-stone-texture-pattern_58702-16052.jpg?semt=ais_incoming&w=740&q=80");
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .left-side h1 {
+      font-size: 50px;
+      margin: 0;
+      text-align: left;
+      width: 100%;
+    }
+
+    .left-side p {
+      font-size: 20px;
+      font-weight: normal;
+      margin-top: 5px;
+      text-align: left;
+      width: 100%;
+    }
+
+    .left-side p1 {
+      font-size: 18px;
+      font-weight: normal;
+      margin-top: 20px;
+      text-align: center;
+      width: 100%;
+      display: block;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #ff0000;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #005fa3;
+    }
+
+    .right-side {
+      flex: 0.35; 
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 30px;
+    }
+
+    .right-side img {
+      width: 250px;   
+      height: 250px;
+      border-radius: 50%; 
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    .line {
+      height: 1px;
+      width: 90%;
+      background-color: white;
+      margin: 20px 0;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+
+    .gallery-item {
+      text-align: center;
+      color: white;
+    }
+
+    .gallery-item img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.4);
+    }
+
+    .gallery-item p {
+      margin-top: 5px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="left-side">
+    <h1>PORTFOLIO</h1>
+    <p1> About Me </p1>
+    <div class="line"></div>
+    <p> 3D Modeller & Environmental </p>
+    <p> </p>
+    <p> Software: Blender, Unity, Godot Engine.</p>
+
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="1234.jpg" alt="Project 1">
+        <p>Project 1</p>
+      </div>
+      <div class="gallery-item">
+        <img src="deadtown.jpg" alt="Project 2">
+        <p>Project 2</p>
+      </div>
+      <div class="gallery-item">
+        <img src="exit.jpg" alt="Project 3">
+        <p>Project 3</p>
+      </div>
+    </div>
+
+    <a href="https://www.instagram.com/rgr705_?igsh=MWd4eTc2c2Y0MnR4" class="btn">Contact Me</a>
+  </div>
+
+  <div class="right-side">
+    <img src="orang.jpg" alt="Profile Picture">
+  </div>
+</body>
+</html>
